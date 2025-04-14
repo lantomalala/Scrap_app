@@ -1,17 +1,19 @@
 {
-  "name": "Scrapp App",
+  "name": "scrapp-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "devStart": "node server.js"
+    "devStart": "node server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Justin Lantomalala",
   "license": "ISC",
-  "description": "Cette API permet d'extraire **le nom** et **l'image de profil** depuis un profil Facebook public en utilisant **Puppeteer** et **Express.js**.",
+  "description": "Cette API permet d'extraire le nom et l'image de profil depuis un profil Facebook public en utilisant Puppeteer et Express.js.",
   "dependencies": {
     "express": "^5.1.0",
+    "chromedriver": "^131.0.0",
     "puppeteer": "^23.8.0",
-    "puppeteer-core": "^24.6.1"
+    "selenium-webdriver": "^4.26.0"
   }
 }
