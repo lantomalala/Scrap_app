@@ -11,9 +11,10 @@
   "license": "ISC",
   "description": "Cette API permet d'extraire le nom et l'image de profil depuis un profil Facebook public en utilisant Puppeteer et Express.js.",
   "dependencies": {
-    "express": "^5.1.0",
+    "chrome-aws-lambda": "^10.1.0",
     "chromedriver": "^131.0.0",
-    "puppeteer": "^23.8.0",
+    "express": "^5.1.0",
+    "puppeteer-core": "^24.6.1",
     "selenium-webdriver": "^4.26.0"
   }
 }
